@@ -1,6 +1,6 @@
 # formation ANNA
 
-## Ultimate goal : computation of w'b' on occigen 
+## Ultimate goal : computation of T, S, dxT, dxS, dyT, dyS, w'b' profiles on occigen in 2°x2° boxesspanning North Atlantic
 
 ## Steps
 
@@ -13,6 +13,8 @@
     - python
       - conda
       - environnement
+      - xarray
+      - dask
     - notebook
       - exemple : en local http://localhost:8888/notebooks/lupa/vorticity-variance/cmems-glo-hr_demo-fine-scale-metrics_01_vorticity-variance_v1.0.ipynb
       - exemple sur github :  https://github.com/auraoupa/NATL60-diags/blob/master/figure_rmsssh/2018-05-07-AA-maps-rmsssh-NATL60-AVISO.ipynb
