@@ -22,6 +22,9 @@
       - compte
       - git clone/pull
       - git add/commit/push
+        - 1. git add * or git add . or git add file
+        - 2. git commit -m "comment"
+        - 3. git push (login + psswd)
       
   - occigen
     - architecture
