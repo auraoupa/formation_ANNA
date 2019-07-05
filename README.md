@@ -1,6 +1,6 @@
 # formation ANNA
 
-## Ultimate goal : computation of T, S, dxT, dxS, dyT, dyS, w'b' profiles on occigen in 2°x2° boxesspanning North Atlantic
+## Ultimate goal : computation of T, S, dxT, dxS, dyT, dyS, w'b' profiles on occigen in 2°x2° boxes spanning North Atlantic
 
 ## Steps
 
