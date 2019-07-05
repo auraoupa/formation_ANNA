@@ -21,6 +21,8 @@
     - github
       - compte
       - git clone/pull
+	- git clone https://github.com/auraoupa/formation_ANNA.git
+	- git pull 
       - git add/commit/push
         - 1. git add * or git add . or git add file
         - 2. git commit -m "comment"
