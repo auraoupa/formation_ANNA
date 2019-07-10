@@ -10,12 +10,14 @@ import numpy as np
 import glob
 import time
                                    
+import xscale
 
 data_dir = '/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/'
 
 
-%time dst=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridT_20090701-20090701.nc',chunks={'deptht':1,'time_counter':1}) 
-%time dss=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridS_20090701-20090701.nc',chunks={'deptht':1,'time_counter':1})
+dst=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridT_20090701-20090701.nc') 
+dss=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridS_20090701-20090701.nc')
+dsw=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridW_20090701-20090701.nc')
 
 def compute_buoy(t,s):
 	rau0  = 1000
@@ -35,22 +37,32 @@ def sigma0(t,s):
 	sigma0=( zr4*zs + zr3*zsr + zr2 ) *zs + zr1 - zrau0
 	return sigma0
 
+def filt_w(w):
+    win_box2D = w.window
+    win_box2D.set(window='boxcar', cutoff=0.0125, dim=['x', 'y'], n=[80, 80])
+window_name='lanczos', n=[80, 80], dims=['x', 'y'], fc=0.0125)
+    bw = win_box2D.boundary_weights(drop_dims=[])
+    w_LS = win_box2D.apply(weights=bw)
+    w_SS=w-w_LS
+    return w_SS
+
 import Box2x2_box1 as bb
 
-def save_buoy_surf_1h():
-      temp=dst.votemper
-      salt=dss.vosaline
-      temp0=temp[0,0] 
-      salt0=salt[0,0] 
-      buoy0=compute_buoy(temp0,salt0)
+def compute_wprimebprime_1lev_1h(time,lev):
+      temp=dst.votemper[time,lev]
+      salt=dss.vosaline[time,lev]
+      w=dsw.vovecrtz[time,lev]
+      buoy=compute_buoy(temp,salt)
+      wprime=filt_w(w)
+      bprime=filt(buoy)
+      wprimebprime=wprime*bprime
       for ibox in bb.boxes:
         box = ibox
         if box.nb == '1':
            print(box.name)      
-	   buoy_save=buoy0[box.jmin:box.jmax,box.imin:box.imax]
-           buoy_save.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60'+str(box.nb)+'-BLBT02_y2009m07d01_surfbuoy.nc',mode='w')
+	   print(wprimebprime[box.jmin:box.jmax,box.imin:box.imax].vlaues)
 
-%time save_buoy_surf_1h() ## 26.4s
+%time compute_wprimebprime_1lev_1h() ## 26.4s
 
 def save_buoy_surf_24h():
       temp=dst.votemper

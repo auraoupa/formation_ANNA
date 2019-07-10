@@ -1,351 +1,424 @@
-#!/usr/bin/env python
-
-"""
-oocgcm.filtering.linearfilters
-Define functions for linear filtering that works on multi-dimensional
+"""Define functions for linear filtering that works on multi-dimensional
 xarray.DataArray and xarray.Dataset objects.
 """
+# Python 2/3 compatibility
+from __future__ import absolute_import, division, print_function
+# Internal
 import copy
-import xarray as xr
+from collections import Iterable
+# Numpy and scipy
 import numpy as np
-# Matplotlib
-import pylab as plt
-from matplotlib import gridspec
-# Scipy
-import scipy.signal.windows as win
+import scipy.signal as sig
 import scipy.ndimage as im
-import scipy.special as spec
-# Dask
-#from dask.diagnostics import ProgressBar
-# Oocgcm modules
-from oocgcm.plot.plot2d import spectrum2d_plot
-from oocgcm.plot.plot1d import spectrum_plot
+import xarray as xr
+# Matplotlib
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib import transforms
+# Current package
+from .. import _utils
+from ..spectral.fft import fft, psd
 
-# ------------------------------------------------------------------------------
-# First part : Definition of custom window functions
-# ------------------------------------------------------------------------------
+import pdb
 
-def lanczos(n, fc=0.02):
-	"""
-	Compute the coefficients of a Lanczos window
-
-	Parameters
-	----------
-	n : int
-		Number of points in the output window, must be an odd integer.
-	fc : float
-		Cutoff frequency
-
-	Returns
-	-------
-	w : ndarray
-		The weights associated to the boxcar window
-	"""
-	if not isinstance(n, int):
-		try:
-			n = int(n)
-		except:
-			TypeError("n must be an integer")
-	if not n % 2 == 1:
-		raise ValueError("n must an odd integer")
-	dim = 1
-	if dim ==  1:
-		k = np.arange(- n / 2 + 1, n / 2 + 1)
-		# k = np.arange(0, n + 1)
-		# w = (np.sin(2 * pi * fc * k) / (pi * k) *
-		#     np.sin(pi * k / n) / (pi * k / n))
-		w = (np.sin(2. * np.pi * fc * k) / (np.pi * k) *
-		     np.sin(np.pi * k / (n / 2.)) / (np.pi * k / (n / 2.)))
-		# Particular case where k=0
-		w[n / 2] = 2. * fc
-	elif dim == 2:
-		#TODO: Test this bidimensional window
-		fcx, fcy = fc
-		nx, ny = n
-		# Grid definition according to the number of weights
-		kx, ky = np.meshgrid(np.arange(-nx, nx + 1), np.arange(-ny, ny + 1), indexing='ij')
-		# Computation of the response weight on the grid
-		z = np.sqrt((fcx * kx) ** 2 + (fcy * ky) ** 2)
-		w_rect = 1 / z * fcx * fcy * spec.j1(2 * np.pi * z)
-		w = (w_rect * np.sin(np.pi * kx / nx) / (np.pi * kx / nx) *
-		     np.sin(np.pi * ky / ny) / (np.pi * ky / ny))
-		# Particular case where z=0
-		w[nx, :] = (w_rect[nx, :] * 1. / (np.pi * ky[nx, :] / ny) *
-		             np.sin(np.pi * ky[nx, :] / ny))
-		w[:, ny] = (w_rect[:, ny] * 1. / (np.pi * kx[:, ny] / nx) *
-		             np.sin(np.pi * kx[:, ny] / nx))
-		w[nx, ny] = np.pi * fcx * fcy
-	return w
-
-
-# Define a list of available windows
-_local_window_dict = {'lanczos': lanczos}
-
-
-# ------------------------------------------------------------------------------
-# First part : Definition of window classes for filtering
-# ------------------------------------------------------------------------------
-
-@xr.register_dataarray_accessor('win')
-@xr.register_dataset_accessor('win')
+@xr.register_dataarray_accessor('window')
+@xr.register_dataset_accessor('window')
 class Window(object):
 	"""
 	Class for all different type of windows
 	"""
 
-	_attributes = ['name', 'dims', 'order']
+	_attributes = ['order', 'cutoff', 'dx', 'window']
 
 	def __init__(self, xarray_obj):
 		self._obj = xarray_obj
-		self.obj = xarray_obj
-		self.name = 'boxcar'
-		self.dims = None
-		self.order = 2
-		self.coefficients = 1.
-		self.coords = []
-		self._depth = dict()
+		self.obj = xarray_obj # Associated xarray object
+		self.n = None # Size of the window
+		self.dims = None # Dimensions of the window
+		self.ndim = 0 # Number of dimensions
+		self.cutoff = None # Window cutoff
+		self.window = None # Window type (scipy-like type)
+		self.order = None # Window order
+		self.coefficients = 1. # Window coefficients
+		self._depth = dict() # Overlap between different blocks
+		self.fnyq = dict() # Nyquist frequency
 
 	def __repr__(self):
 		"""
 		Provide a nice string representation of the window object
 		"""
-		# Function copy from xarray.core.rolling
+		# Function copied from xarray.core.rolling
 		attrs = ["{k}->{v}".format(k=k, v=getattr(self, k))
 		         for k in self._attributes if
 		         getattr(self, k, None) is not None]
 		return "{klass} [{attrs}]".format(klass=self.__class__.__name__,
-		                                  attrs=','.join(attrs))
+		                                  attrs=', '.join(attrs))
 
-	def set(self, window_name=None, n=None, dims=None, chunks=None, **kargs):
-		"""
-		Set the different properties of the current window
-
-        If the variable associated to the window objetc is a non-dask array,
-        it will be converted to dask array. If it's a dask array, it will be
-        rechunked to the given chunksizes.
-
-        If neither chunks is not provided for one or more dimensions, chunk
-        sizes along that dimension will not be updated; non-dask arrays will be
-        converted into dask arrays with a single block.
+	def set(self, n=None, dim=None, cutoff=None, dx=None, window='boxcar',
+	        chunks=None):
+		"""Set the different properties of the current window.
 
 		Parameters
 		----------
-		window_name : str
-			Name of the window among the available windows (see Notes below)
-		n : int or tuple of int
-			Half-size of the window
-		dims : str or tuple of str
-			Name of the dimension of the window
-        chunks : int, tuple or dict, optional
-            Chunk sizes along each dimension, e.g., ``5``, ``(5, 5)`` or
-            ``{'x': 5, 'y': 5}``.
-		keywords
-			Additional parameters specific to some windows functions (see the
-			Notes below)
+		n : int, sequence or dict, optional
+			Window order over dimensions specified through an integer coupled
+			with the ``dim`` parameter. A dictionnary can also be used to specify
+			the order.
+		dim : str or sequence, optional
+			Names of the dimensions associated with the window.
+		cutoff : float, sequence or dict, optional
+			The window cutoff over the dimensions specified through a
+			dictionnary or coupled with the dim parameter. If None,
+			the cutoff is not used to desgin the filter.
+		dx : float, sequence or dict, optional
+			Define the resolution of the dimensions. If None, the resolution
+			is directly infered from the coordinates associated to the
+			dimensions.
+		trim : bool, optional
+			If True, choose to only keep the valid data not affected by the
+			boundaries.
+		window : string, tupple, or string and parameters values, or dict, optional
+			Window to use, see :py:func:`scipy.signal.get_window` for a list
+			of windows and required parameters
+		chunks : int, tuple or dict, optional
+			Chunk sizes along each dimension, e.g., ``5``, ``(5, 5)`` or
+			``{'x': 5, 'y': 5}``
 
 		"""
+		# Check and interpret n and dims parameters
+		self.n, self.dims = _utils.infer_n_and_dims(self._obj, n, dim)
+		self.ndim = len(self.dims)
+		self.order = {di: nbw for nbw, di in zip(self.n, self.dims)}
+		self.cutoff = _utils.infer_arg(cutoff, self.dims)
+		self.dx = _utils.infer_arg(dx, self.dims)
+		self.window = _utils.infer_arg(window, self.dims,
+		                               default_value='boxcar')
+		# Rechunk if needed
 		self.obj = self._obj.chunk(chunks=chunks)
-		if window_name is not None:
-			self.name = window_name
-		if dims is None and self.dims is None:
-			dims = self._obj.dims[0]
-		if isinstance(dims, str):
-			self.dims = [dims, ]
-		else:
-			self.dims = dims
-		for dim in self.dims:
-			if not dim in self._obj.dims:
-				raise ValueError("Dimension " + dim + "does not exist")
-		if window_name in _local_window_dict:
-			window_function = _local_window_dict[window_name]
-		else:
-			raise ValueError("This type of window is not supported, " \
-			                  "please check the name")
-		self.order = dict()
-		self.coefficients = 1.
-		self.coords = []
-		for weight_numbers, dimension_name in zip(n, dims):
-			self.order[dimension_name] = weight_numbers
-			# Compute the coefficients associated to the window using the right
-			# function
-			coefficients1d = window_function(2 * weight_numbers + 1, **kargs)
-			# Normalize the coefficients
-			coefficients1d /= np.sum(coefficients1d)
-			self.coefficients = np.outer(self.coefficients, coefficients1d)
-			#TODO: Try to add the rotational convention using meshgrid, in complement to the outer product
-			#TODO: check the order of dimension of the kernel compared to the DataArray/DataSet objects
-		self.coefficients = self.coefficients.squeeze()
-		for dim in self.obj.dims:
-			axis_dim = self.obj.get_axis_num(dim)
-			if dim not in self.dims:
-				self.coefficients = np.expand_dims(self.coefficients,
-				                                   axis=axis_dim)
+
+		# Reset attributes
+		self.fnyq = dict()
+		self.coefficients = xr.DataArray(1.)
+		#/!\ Modif for Dataset
+		#self._depth = dict()
+
+		# Build the multi-dimensional window: the hard part
+		for di in self.obj.dims:
+			#/!\ Modif for Dataset
+			#axis_num = self.obj.get_axis_num(di)
+			#dim_chunk = self.obj.chunks[di][0]
+			if di in self.dims:
+				#/!\ Modif for Dataset
+				#self._depth[axis_num] = self.order[di] // 2
+				if self.dx[di] is None:
+					self.dx[di] = _utils.get_dx(self.obj, di)
+				self.fnyq[di] = 1. / (2. * self.dx[di])
+				# Compute the coefficients associated to the window using scipy functions
+				if self.cutoff[di] is None:
+					# Use get_window if the cutoff is undefined
+					coefficients1d = sig.get_window(self.window[di],
+					                                self.order[di])
+				else:
+					# Use firwin if the cutoff is defined
+					coefficients1d = sig.firwin(self.order[di],
+					                            1. / self.cutoff[di],
+					                            window=self.window[di],
+					                            nyq=self.fnyq[di])
+				try:
+					chunks = self.obj.chunks[di][0]
+				except TypeError:
+					axis_num = self.obj.get_axis_num(di)
+					chunks = self.obj.chunks[axis_num][0]
+				n = len(coefficients1d)
+				coords =  {di: np.arange(-(n - 1) // 2, (n + 1) // 2)}
+				coeffs1d = xr.DataArray(coefficients1d, dims=di, 
+										coords=coords).chunk(chunks=chunks) 
+				self.coefficients = self.coefficients * coeffs1d
+				# TODO: Try to add the rotational convention using meshgrid,
+				# in complement to the outer product
+				#self.coefficients = self.coefficients.squeeze()
 			else:
-				self._depth[self.obj.get_axis_num(dim)] = self.order[dim]
-			self.coords.append(np.asarray(self.obj.coords[dim]))
+				self.coefficients = self.coefficients.expand_dims(di, axis=-1)
+			#	self.coefficients = self.coefficients.expand_dim(di, axis=-1)
+			#	np.expand_dims(self.coefficients,
+			#	                                   axis=axis_num)
 
-	def apply(self, mode='reflect', weights=None, compute=True):
+	def convolve(self, mode='reflect', weights=1., trim=False):
+		"""Convolve the current window with the data
+
+		Parameters
+		----------
+		mode : {'reflect', 'periodic', 'any-constant'}, optional
+			The mode parameter determines how the array borders are handled.
+			Default is 'reflect'.
+		weights : DataArray, optional
+			Array to weight the result of the convolution close to the
+			boundaries.
+		trim : bool, optional
+			If True, choose to only keep the valid data not affected by the
+			boundaries.
+
+		Returns
+		-------
+		res : xarray.DataArray
+			Return a filtered DataArray
 		"""
-		Convolve the current window with the data
-		"""
-		# Check if the data has more dimensions than the window and add
-		# extra-dimensions to the window if it is the case
-		mask = self.obj.notnull()
-		if weights is None:
-			weights = im.convolve(mask.astype(float), self.coefficients, mode=mode)
-		filled_data = self.obj.fillna(0.).data
+		if isinstance(self.obj, xr.DataArray):
+			res = _convolve(self.obj, self.coefficients, self.dims, self.order, 
+							mode, weights, trim)
+		elif isinstance(self.obj, xr.Dataset):
+			res = self.obj.apply(_convolve, keep_attrs=True,
+								 args=(self.coefficients, self.dims, self.order, 
+									   mode, weights, trim))
+		return res
 
-		def convolve(x):
-			xf = im.convolve(x, self.coefficients, mode=mode)
-			return xf
-
-		data = filled_data.map_overlap(convolve, depth=self._depth,
-		                               boundary=mode, trim=True)
-		if compute:
-			out = data.compute()
-		else:
-			out = data
-		res = xr.DataArray(out, dims=self.obj.dims, coords=self.coords, name=self.obj.name) / weights
-
-		return res.where(mask == 1)
-
-	def boundary_weights(self, mode='reflect', drop_dims=None):
+	def boundary_weights(self, mode='reflect', mask=None, drop_dims=[], trim=False):
 		"""
 		Compute the boundary weights
 
 		Parameters
 		----------
-			mode:
-
-			drop_dims:
-				Specify dimensions along which the mask is constant
+		mode : {'reflect', 'periodic', 'any-constant'}, optional
+			The mode parameter determines how the array borders are handled.
+			Default is 'reflect'.
+		mask : array-like, optional
+			Specify the mask, if None the mask is inferred from missing values
+		drop_dims : list, optional
+			Specify dimensions along which the weights do not need to be
+			computed
 
 		Returns
 		-------
+		weights : xarray.DataArray or xarray.Dataset
+			Return a DataArray or a Dataset containing the weights
 		"""
-		mask = self.obj.notnull()
-		new_dims = copy.copy(self.obj.dims)
-		new_coords = copy.copy(self.coords)
-		for dim in drop_dims:
-			#TODO: Make the function work
-			mask = mask.isel({dim:0})
-			del(new_dims[dim])
-			del(new_coords[dim])
-		weights = im.convolve(mask.astype(float), self.coefficients, mode=mode)
-		res = xr.DataArray(weights, dims=new_dims, coords=new_coords, name='boundary weights')
-		return res.where(mask == 1)
+		# Drop extra dimensions if
+		if drop_dims:
+			new_coeffs = self.coefficients.squeeze()
+		else:
+			new_coeffs = self.coefficients
+		if mask is None:
+			# Select only the first
+			new_obj = self.obj.isel(**{di: 0 for di in drop_dims}).squeeze()
+			mask = 1. - np.isnan(new_obj)
+		if isinstance(mask, xr.DataArray):
+			res = _convolve(mask, new_coeffs, self.dims, self.order,
+							mode, 1., trim)
+		elif isinstance(mask, xr.Dataset):
+			res = mask.apply(_convolve, keep_attrs=True,
+								        args=(self.coefficients, self.dims, self.order,
+									          mode, 1., trim))
+		# Mask the output
+		res = res.where(mask == 1.)
+		return res
 
-	def plot(self, format = 'landscape'):
+	def tapper(self, overlap=0.):
+		"""
+		Do a tappering of the data using the current window
+
+		Parameters
+		----------
+		overlap:
+
+		Returns
+		-------
+		data_tappered : dask array
+			The data tappered y the window
+
+		Notes
+		-----
+		"""
+		# TODO: Improve this function to implement multitapper
+		res = xr.DataArray(self.coefficients * self.obj.data,
+		                   dims=self.obj.dims, coords=self.obj.coords,
+		                   name=self.obj.name)
+		return res
+
+	def plot(self):
 		"""
 		Plot the weights distribution of the window and the associated
 		spectrum (work only for 1D and 2D windows).
 		"""
-		nod = len(self.dims)
-		if nod == 1:
-			# Compute 1D spectral response
-			spectrum = np.fft.fft(self.coefficients.squeeze(), 2048) / (len(self.coefficients.squeeze()) / 2.0)
-			freq = np.linspace(-0.5, 0.5, len(spectrum))
-			response = 20 * np.log10(np.abs(np.fft.fftshift(spectrum / abs(spectrum).max())))
-			# Plot window properties
-			fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
-			# First plot: weight distribution
-			n = self._depth.values()[0]
-			ax1.plot(np.arange(-n, n + 1), self.coefficients.squeeze())
-			ax1.set_xlim((-n, n))
-			ax1.set_title("Window: " + self.name)
-			ax1.set_ylabel("Amplitude")
-			ax1.set_xlabel("Sample")
-			# Second plot: frequency response
-			ax2.plot(freq, response)
-			ax2.axis([-0.5, 0.5, -120, 0])
-			ax2.set_title("Frequency response of the " + self.name + " window")
-			ax2.set_ylabel("Normalized magnitude [dB]")
-			ax2.set_xlabel("Normalized frequency [cycles per sample]")
-			ax2.grid(True)
-			plt.tight_layout()
-		elif nod == 2:
-			# Compute 2D spectral response
-			spectrum = (np.fft.fft2(self.coefficients.squeeze(), [1024, 1024]) /
-			            (np.size(self.coefficients.squeeze()) / 2.0))
-			response = np.abs(np.fft.fftshift(spectrum / abs(spectrum).max()))
-			fx = np.linspace(-0.5, 0.5, 1024)
-			fy = np.linspace(-0.5, 0.5, 1024)
-			f2d = np.meshgrid(fy, fx)
-			print(self._depth)
-			nx, ny = self._depth.values()
-			if  format == 'landscape':
-				gs = gridspec.GridSpec(2, 4, width_ratios=[2, 1, 2, 1], height_ratios=[1, 2])
-				plt.figure(figsize=(11.69, 8.27))
-			elif format == 'portrait':
-				plt.figure(figsize=(8.27, 11.69))
-			# Weight disribution along x
-			ax_nx = plt.subplot(gs[0])
-			ax_nx.plot(np.arange(-nx, nx + 1), self.coefficients.squeeze()[:, ny])
-			ax_nx.set_xlim((-nx, nx))
-			# Weight disribution along y
-			ax_nx = plt.subplot(gs[5])
-			ax_nx.plot(self.coefficients.squeeze()[nx, :], np.arange(-ny, ny + 1))
-			ax_nx.set_ylim((-ny, ny))
-			# Full 2d weight distribution
-			ax_n2d = plt.subplot(gs[4])
-			nx2d, ny2d = np.meshgrid(np.arange(-nx, nx + 1), np.arange(-ny, ny + 1), indexing='ij')
-			print(np.shape(nx2d))
-			ax_n2d.pcolormesh(nx2d, ny2d, self.coefficients.squeeze())
-			ax_n2d.set_xlim((-nx, nx))
-			ax_n2d.set_ylim((-ny, ny))
-			box = dict(facecolor='white', pad=10.0)
-			ax_n2d.text(0.97, 0.97, r'$w(n_x,n_y)$', fontsize='x-large', bbox=box, transform=ax_n2d.transAxes,
-			            horizontalalignment='right', verticalalignment='top')
-			# Frequency response for fy = 0
-			ax_fx = plt.subplot(gs[2])
-			spectrum_plot(ax_fx, fx, response[:, 512].squeeze(),)
-			# ax_fx.set_xlim(xlim)
-			ax_fx.grid(True)
-			ax_fx.set_ylabel(r'$R(f_x,0)$', fontsize=24)
-			# Frequency response for fx = 0
-			ax_fy = plt.subplot(gs[7])
-			spectrum_plot(ax_fy, response[:, 512].squeeze(), fy)
-			#ax_fy.set_ylim(ylim)
-			ax_fy.grid(True)
-			ax_fy.set_xlabel(r'$,R(0,f_y)$', fontsize=24)
-			# Full 2D frequency response
-			ax_2d = plt.subplot(gs[6])
-			spectrum2d_plot(ax_2d, fx, fy, response, zlog=True)
-			ax_2d.set_ylabel(r'$f_y$', fontsize=24)
-			ax_2d.set_xlabel(r'$f_x$', fontsize=24)
-			ax_2d.grid(True)
-			box = dict(facecolor='white', pad=10.0)
-			ax_2d.text(0.97, 0.97, r'$R(f_x,f_y)$', fontsize='x-large', bbox=box, transform=ax_2d.transAxes,
-			           horizontalalignment='right', verticalalignment='top')
-			plt.tight_layout()
+		win_array = xr.DataArray(self.coefficients.squeeze(),
+		                         dims=self.dims).squeeze()
+		win_spectrum = psd(fft(win_array, nfft=1024, dim=self.dims,
+		                                  dx=self.dx, sym=True))
+		win_spectrum_norm = 20 * np.log10(win_spectrum / abs(win_spectrum).max())
+		self.win_spectrum_norm = win_spectrum_norm
+		if self.ndim == 1:
+			_plot1d_window(win_array, win_spectrum_norm)
+		elif self.ndim == 2:
+			_plot2d_window(win_array, win_spectrum_norm)
 		else:
-			raise ValueError("This number of dimension is not supported by the plot function")
+			raise ValueError("This number of dimension is not supported by the "
+			                 "plot function")
 
 
-def tapper(data, window_name, dims, **kargs):
-	"""
-	Do a tappering of the data using any window among the available windows (
-	see the notes below)
+def _plot1d_window(win_array, win_spectrum_norm):
 
-	Parameters
-	----------
-	data : Datarray
-		The data on which apply the window function
-	window_name : string
-		The name of the window to use
-	dims : string or tuple of string
-		Dimensions of the window
-	keywords arguments:
-		Any arguments relative to the additional parameters of the window
-		function (see the notes below)
+	dim = win_spectrum_norm.dims[0]
+	freq = win_spectrum_norm[dim]
+	min_freq = np.extract(freq > 0, freq).min()
+	# next, should eventually be udpated in order to delete call to .values
+	# https://github.com/pydata/xarray/issues/1388
+	# Changed by using load()
+	cutoff_3db = 1. / abs(freq[np.abs(win_spectrum_norm + 3).argmin(dim).data])
+	cutoff_6db = 1. / abs(freq[np.abs(win_spectrum_norm + 6).argmin(dim).data])
 
-	Returns
-	-------
-	data_tappered : dask array
-		The data tappered y the window
+	# Plot window properties
+	fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
 
-	Notes
-	-----
-	"""
-	# TODO: Write the function using the Window class
-	pass
+	# First plot: weight distribution
+	win_array.plot(ax=ax1)
+	ax1.set_ylabel("Amplitude")
+	ax1.set_xlabel("Sample")
+
+	# Second plot: frequency response
+	win_spectrum_norm.plot(ax=ax2)
+	ax2.set_xscale('symlog', linthreshx=min_freq,
+	               subsx=[2, 3, 4, 5, 6, 7, 8, 9])
+	box = dict(boxstyle='round', facecolor='white', alpha=1)
+	textstr = '$\lambda^{3dB}=%.1f$ \n $\lambda^{6dB}=%.1f$' % (cutoff_3db,
+	                                                            cutoff_6db)
+	ax2.text(0.5, 0.45, textstr, transform=ax2.transAxes, fontsize=14,
+	         verticalalignment='top',
+	         horizontalalignment='center', bbox=box)
+	ax2.set_ylim((-200, 20))
+	ax2.set_ylabel("Normalized magnitude [dB]")
+	ax2.set_xlabel("Frequency [cycles per sample]")
+	ax2.grid(True)
+	plt.tight_layout()
+
+
+def _plot2d_window(win_array, win_spectrum_norm):
+
+	fig = plt.figure(figsize=(18, 9))
+	n_x, n_y = win_array.shape
+	n_fx, n_fy = win_spectrum_norm.shape
+	dim_fx, dim_fy = win_spectrum_norm.dims
+	win_array_x = win_array[:, n_y // 2]
+	win_array_y = win_array[n_x // 2, :]
+	win_spectrum_x = win_spectrum_norm.isel(**{dim_fy: n_fy // 2})
+	win_spectrum_y = win_spectrum_norm.isel(**{dim_fx: n_fx // 2})
+	freq_x, freq_y = win_spectrum_norm[dim_fx], win_spectrum_norm[dim_fy]
+
+	min_freq_x = np.extract(freq_x > 0, freq_x).min()
+	min_freq_y = np.extract(freq_y > 0, freq_y).min()
+
+	cutoff_x_3db = 1. / abs(freq_x[np.abs(win_spectrum_x + 3).argmin(dim_fx).data])
+	cutoff_x_6db = 1. / abs(freq_x[np.abs(win_spectrum_x + 6).argmin(dim_fx).data])
+	cutoff_y_3db = 1. / abs(freq_y[np.abs(win_spectrum_y + 3).argmin(dim_fy).data])
+	cutoff_y_6db = 1. / abs(freq_y[np.abs(win_spectrum_y + 6).argmin(dim_fy).data])
+
+	#fig = plt.figure(1, figsize=(16, 8))
+	# Definitions for the axes
+	left, width = 0.05, 0.25
+	bottom, height = 0.05, 0.5
+	offset = 0.05
+	bottom_h = bottom + height + offset
+
+	rect_2D_weights = [left, bottom, width, height]
+	rect_x_weights = [left, bottom_h, width, height / 2]
+	rect_y_weights = [left + width + offset, bottom, width / 2, height]
+	rect_2D_spectrum = [left + 3. / 2 * width + 2 * offset, bottom, width,
+	                    height]
+	rect_x_spectrum = [left + 3. / 2 * width + 2 * offset, bottom_h, width,
+	                   height / 2]
+	rect_y_spectrum = [left + 5. / 2 * width + 3 * offset, bottom,
+	                   width / 2, height]
+	ax_2D_weights = plt.axes(rect_2D_weights)
+	ax_x_weights = plt.axes(rect_x_weights)
+	ax_y_weights = plt.axes(rect_y_weights)
+	ax_x_spectrum = plt.axes(rect_x_spectrum)
+	ax_y_spectrum = plt.axes(rect_y_spectrum)
+	ax_2D_spectrum = plt.axes(rect_2D_spectrum)
+
+	# Weight disribution along y
+	win_array_y.squeeze().plot(ax=ax_x_weights)
+	ax_x_weights.set_ylabel('')
+	ax_x_weights.set_xlabel('')
+
+	# Weight disribution along x
+	base = ax_y_weights.transData
+	rot = transforms.Affine2D().rotate_deg(270)
+	win_array_x.plot(ax=ax_y_weights, transform=rot + base)
+	ax_y_weights.set_ylabel('')
+	ax_y_weights.set_xlabel('')
+
+	# Full 2d weight distribution
+	win_array.plot(ax=ax_2D_weights, add_colorbar=False)
+
+	# Spectrum along f_y
+	win_spectrum_y.plot(ax=ax_x_spectrum)
+	ax_x_spectrum.set_xscale('symlog', linthreshx=min_freq_y,
+	                         subsx=[2, 3, 4, 5, 6, 7, 8, 9])
+	ax_x_spectrum.set_ylim([-200, 20])
+	ax_x_spectrum.grid()
+	ax_x_spectrum.set_ylabel("Normalized magnitude [dB]")
+	ax_x_spectrum.set_xlabel("")
+	box = dict(boxstyle='round', facecolor='white', alpha=1)
+	# place a text box in upper left in axes coords
+	textstr = '$\lambda_y^{3dB}=%.1f$ \n $\lambda_y^{6dB}=%.1f$' % (
+		cutoff_y_3db, cutoff_y_6db)
+	ax_x_spectrum.text(0.5, 0.45, textstr,
+	                   transform=ax_x_spectrum.transAxes,
+	                   fontsize=14, verticalalignment='top',
+	                   horizontalalignment='center', bbox=box)
+
+	# Spectrum along f_x
+	base = ax_y_spectrum.transData
+	rot = transforms.Affine2D().rotate_deg(270)
+	win_spectrum_x.squeeze().plot(ax=ax_y_spectrum,
+	                              transform=rot + base)
+	ax_y_spectrum.set_yscale('symlog', linthreshy=min_freq_x,
+	                                   subsy=[2, 3, 4, 5, 6, 7, 8, 9])
+	ax_y_spectrum.set_xlim([-200, 20])
+	ax_y_spectrum.grid()
+	ax_y_spectrum.set_ylabel("")
+	ax_y_spectrum.set_xlabel("Normalized magnitude [dB]")
+	textstr = '$\lambda_x^{3dB}=%.1f$ \n $\lambda_x^{6dB}=%.1f$' % (
+		cutoff_x_3db, cutoff_x_6db)
+	ax_y_spectrum.text(0.7, 0.5, textstr, transform=ax_y_spectrum.transAxes,
+	                                      fontsize=14,
+	                                      verticalalignment='center',
+	                                      horizontalalignment='right',
+	                                      bbox=box)
+
+	# Full 2d spectrum
+	win_spectrum_norm.plot(ax=ax_2D_spectrum,
+	                       add_colorbar=False,
+	                       vmin=-200,
+	                       vmax=0,
+	                       cmap=matplotlib.cm.Spectral_r)
+	ax_2D_spectrum.set_xscale('symlog', linthreshx=min_freq_y)
+	ax_2D_spectrum.set_yscale('symlog', linthreshy=min_freq_x)
+
+	
+def _convolve(dataarray, coeffs, dims, order, mode, weights, trim):
+		"""Convolve the current window with the data
+		"""
+		# Check if the kernel has more dimensions than the input data,
+		# if so the extra dimensions of the kernel are squeezed
+		squeezed_dims = [di for di in dims if di not in dataarray.dims]
+		new_coeffs = coeffs.squeeze(squeezed_dims)
+		new_coeffs /= new_coeffs.sum()
+		if trim:
+			mode = np.nan
+			mode_conv = 'constant'
+			new_data = dataarray.data
+		else:
+			new_data = dataarray.fillna(0.).data
+			if mode is 'periodic':
+				mode_conv = 'wrap'
+			else:
+				mode_conv = mode
+		boundary = {dataarray.get_axis_num(di): mode for di in dims}
+		depth = {dataarray.get_axis_num(di): order[di] // 2 for di in dims}
+		conv = lambda x: im.convolve(x, new_coeffs.data, mode=mode_conv)
+		data_conv = new_data.map_overlap(conv, depth=depth,
+		                                       boundary=boundary,
+		                                       trim=True)
+		res = 1. / weights *  xr.DataArray(data_conv, dims=dataarray.dims,
+		                                              coords=dataarray.coords,
+		                                              name=dataarray.name)
+		return res

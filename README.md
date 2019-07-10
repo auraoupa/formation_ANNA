@@ -40,3 +40,11 @@
       - conda/pip
     - cdftools
       - installation
+
+# Building the machine learning dataset from eNATL60
+
+- [ ] check filtrage boxcar from xscale
+- [ ] tester différents chunks
+- [ ] préparer profiles w’b’ pour 1 jour et 1 niveau vertical
+- [ ] tester optimisation avec numba pour une boucle sur les niveaux verticaux
+- [ ] boucle sur les fichiers et les boîtes
