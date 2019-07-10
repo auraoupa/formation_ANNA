@@ -2,6 +2,22 @@
 
 ## Ultimate goal : computation of T, S, dxT, dxS, dyT, dyS, w'b' profiles on occigen in 2°x2° boxes spanning North Atlantic
 
+## Work on machine learning dataset from eNATL60
+
+- [ ] check filtrage boxcar from xscale
+- [ ] calcul w’b’ 1 niveau 1h
+	- [x] tester différents chunks
+		* 1000x1000 c le mieux
+	- [x] tester plusieurs boites pour un ficher
+		* on ne multiplie pas par le nombre de boîtes, ouf !
+		* 1 boite = 1mn
+		* 2 botîtes = 2mn
+		* 14 boîtes = 14mn
+- [ ] ecrire netcdf au fur et a mesure
+- [ ] préparer profiles w’b’ pour 1 jour et 1 niveau vertical
+- [ ] tester optimisation avec numba pour une boucle sur les niveaux verticaux
+- [ ] boucle sur les fichiers et les boîtes
+
 ## Steps
 
   - How we work at MEOM : https://github.com/meom-group/tutos/blob/master/software.md
@@ -41,10 +57,3 @@
     - cdftools
       - installation
 
-# Building the machine learning dataset from eNATL60
-
-- [ ] check filtrage boxcar from xscale
-- [ ] tester différents chunks
-- [ ] préparer profiles w’b’ pour 1 jour et 1 niveau vertical
-- [ ] tester optimisation avec numba pour une boucle sur les niveaux verticaux
-- [ ] boucle sur les fichiers et les boîtes
