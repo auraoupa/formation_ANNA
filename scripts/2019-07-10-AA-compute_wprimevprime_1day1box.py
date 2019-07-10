@@ -37,12 +37,11 @@ def sigma0(t,s):
 	sigma0=( zr4*zs + zr3*zsr + zr2 ) *zs + zr1 - zrau0
 	return sigma0
 
-def filt_w(w):
+def filt(w):
     win_box2D = w.window
-    win_box2D.set(window='boxcar', cutoff=0.0125, dim=['x', 'y'], n=[80, 80])
-window_name='lanczos', n=[80, 80], dims=['x', 'y'], fc=0.0125)
+    win_box2D.set(window='boxcar', cutoff=80, dim=['x', 'y'], n=[80, 80])
     bw = win_box2D.boundary_weights(drop_dims=[])
-    w_LS = win_box2D.apply(weights=bw)
+    w_LS = win_box2D.convolve(weights=bw)
     w_SS=w-w_LS
     return w_SS
 
@@ -53,104 +52,34 @@ def compute_wprimebprime_1lev_1h(time,lev):
       salt=dss.vosaline[time,lev]
       w=dsw.vovecrtz[time,lev]
       buoy=compute_buoy(temp,salt)
-      wprime=filt_w(w)
+      wprime=filt(w)
       bprime=filt(buoy)
       wprimebprime=wprime*bprime
       for ibox in bb.boxes:
         box = ibox
         if box.nb == '1':
            print(box.name)      
-	   print(wprimebprime[box.jmin:box.jmax,box.imin:box.imax].vlaues)
+	   print(wprimebprime[box.jmin:box.jmax,box.imin:box.imax].mean(dim={'x','y'}).values)
 
-%time compute_wprimebprime_1lev_1h() ## 26.4s
+%time compute_wprimebprime_1lev_1h(0,0) ## 4min57
 
-def save_buoy_surf_24h():
-      temp=dst.votemper
-      salt=dss.vosaline
-      temp0=temp[:25,0] 
-      salt0=salt[:25,0]
-      buoy0=compute_buoy(temp0,salt0)
-      for ibox in bb.boxes:
-        box = ibox
-        if box.nb == '1':
-           print(box.name)
-           buoy_save=buoy0[:,box.jmin:box.jmax,box.imin:box.imax]
-           buoy_save.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60'+str(box.name)+'-BLBT02_y2009m07d01h24_surfbuoy.nc',mode='w')
+dst=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridT_20090701-20090701.nc',chunks={'x':2000,'y':2000})
+dss=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridS_20090701-20090701.nc',chunks={'x':2000,'y':2000})
+dsw=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridW_20090701-20090701.nc',chunks={'x':2000,'y':2000})
 
-%time save_buoy_surf_24h()  ## 33.8s
+%time compute_wprimebprime_1lev_1h(10,10) ## 1min30
 
-def save_buoy_surf_10z():
-      temp=dst.votemper
-      salt=dss.vosaline
-      temp0=temp[0,0:10]
-      salt0=salt[0,0:10]
-      buoy0=compute_buoy(temp0,salt0)
-      for ibox in bb.boxes:
-        box = ibox
-        if box.nb == '1':
-           print(box.name)
-           buoy_save=buoy0[:,box.jmin:box.jmax,box.imin:box.imax]
-           buoy_save.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60'+str(box.name)+'-BLBT02_y2009m07d01h01_buoy10z.nc',mode='w')
+dst=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridT_20090701-20090701.nc',chunks={'x':1000,'y':1000})
+dss=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridS_20090701-20090701.nc',chunks={'x':1000,'y':1000})
+dsw=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridW_20090701-20090701.nc',chunks={'x':1000,'y':1000})
 
-%time save_buoy_surf_10z() ## 30.8s
+%time compute_wprimebprime_1lev_1h(10,10) ## 1min2
 
-def save_buoy_surf_20z():
-      temp=dst.votemper
-      salt=dss.vosaline
-      temp0=temp[0,0:20]
-      salt0=salt[0,0:20]
-      buoy0=compute_buoy(temp0,salt0)
-      for ibox in bb.boxes:
-        box = ibox
-        if box.nb == '1':
-           print(box.name)
-           buoy_save=buoy0[:,box.jmin:box.jmax,box.imin:box.imax]
-           buoy_save.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60'+str(box.name)+'-BLBT02_y2009m07d01h01_buoy20z.nc',mode='w')
+dst=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridT_20090701-20090701.nc',chunks={'x':500,'y':500})
+dss=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridS_20090701-20090701.nc',chunks={'x':500,'y':500})
+dsw=xr.open_dataset('/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/00388801-00399600/eNATL60-BLBT02_1h_20090630_20090704_gridW_20090701-20090701.nc',chunks={'x':500,'y':500})
 
-%time save_buoy_surf_20z()  ## abandon
-
-
-def save_buoy_surf_24h5z():
-      temp=dst.votemper
-      salt=dss.vosaline
-      temp0=temp[0:25,0:6]
-      salt0=salt[0:25,0:6]
-      buoy0=compute_buoy(temp0,salt0)
-      for ibox in bb.boxes:
-        box = ibox
-        if box.nb == '1':
-           print(box.name)
-           buoy_save=buoy0[:,box.jmin:box.jmax,box.imin:box.imax]
-           buoy_save.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60'+str(box.name)+'-BLBT02_y2009m07d01_buoy5z.nc',mode='w')
-
-%time save_buoy_surf_24h5z() ## 33.6s
-
-def save_buoy_surf_24h10z():
-      temp=dst.votemper
-      salt=dss.vosaline
-      temp0=temp[0:25,0:11]
-      salt0=salt[0:25,0:11]
-      buoy0=compute_buoy(temp0,salt0)
-      for ibox in bb.boxes:
-        box = ibox
-        if box.nb == '1':
-           print(box.name)
-           buoy_save=buoy0[:,box.jmin:box.jmax,box.imin:box.imax]
-           buoy_save.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60'+str(box.name)+'-BLBT02_y2009m07d01_buoy10z.nc',mode='w')
-
-%time save_buoy_surf_24h10z()  ## restarting workers ...
+%time compute_wprimebprime_1lev_1h(10,10) ## 1min24
 
 
 
-
-
- save_buoy_all():
-      temp=dst.votemper
-      salt=dss.vosaline
-      buoy=compute_buoy(temp,salt)
-      print('Save buoy to netcdf')
-      buoy.rename('buoy').to_dataset().to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/eNATL60-BLBT02_y2009m07d01_buoy.nc',mode='w')
-
-%time save_buoy_all()
-
-temp=dst.votemper
