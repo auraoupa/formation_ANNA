@@ -4,20 +4,26 @@
 
 ## Work on machine learning dataset from eNATL60
 
-- [ ] work on the boxes
-- [ ] check filtrage boxcar from xscale
-- [ ] calcul w’b’ 1 niveau 1h
-	- [x] tester différents chunks
+### Premiers tests sur occigen (visu + ipython)
+- calcul w’b’ 1 niveau 1h
+	- tester différents chunks
 		* 1000x1000 c le mieux
-	- [x] tester plusieurs boites pour un ficher
+	- tester plusieurs boites pour un ficher
 		* on ne multiplie pas par le nombre de boîtes, ouf !
 		* 1 boite = 1mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day1box.py
 		* 2 botîtes = 2mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day2box.py
 		* 14 boîtes = 3mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day14box.py
-- [ ] ecrire netcdf au fur et a mesure
-- [ ] préparer profiles w’b’ pour 1 jour et 1 niveau vertical
-- [ ] tester optimisation avec numba pour une boucle sur les niveaux verticaux
-- [ ] boucle sur les fichiers et les boîtes
+		
+### La suite 
+
+- [ ] Anna : work on the boxes
+- [ ] Aurélie : check filtrage boxcar from xscale
+- [ ] Aurélie : ecrire netcdf au fur et a mesure
+- [ ] Aurélie : contacter cines pour mise en place notebook et dask-jobqueue
+- [ ] Aurélie : tester optimisation avec numba pour une boucle sur les niveaux verticaux et/ou les 24h
+
+et enfin :
+- [ ] Anna : boucle sur les fichiers et les boîtes
 
 ## Steps
 
