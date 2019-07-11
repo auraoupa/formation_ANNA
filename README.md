@@ -5,13 +5,13 @@
 ## Work on machine learning dataset from eNATL60
 
 ### Premiers tests sur occigen (visu + ipython)
-- calcul w’b’ 1 niveau 1h
+- calcul w’b’ sur 1 niveau et 1h
 	- tester différents chunks
-		* 1000x1000 c le mieux
+		* 1000x1000 pour x et y c le mieux
 	- tester plusieurs boites pour un ficher
 		* on ne multiplie pas par le nombre de boîtes, ouf !
-		* 1 boite = 1mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day1box.py
-		* 2 botîtes = 2mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day2box.py
+		* 1 boîte = 1mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day1box.py
+		* 2 boîtes = 2mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day2box.py
 		* 14 boîtes = 3mn : https://github.com/auraoupa/formation_ANNA/blob/master/scripts/2019-07-10-AA-compute_wprimevprime_1day14box.py
 		
 ### La suite 
@@ -23,7 +23,8 @@
 - [ ] Aurélie : tester optimisation avec numba pour une boucle sur les niveaux verticaux et/ou les 24h
 
 et enfin :
-- [ ] Anna : boucle sur les fichiers et les boîtes
+- [ ] Anna : boucle sur les fichiers et les boîtes, 1 fichier par boîte ? 365*24*300 par profils = ~3Go
+- [ ] Anna : idem pour les autres profils T, S, U, V dxT etc ...
 
 ## Steps
 
