@@ -21,6 +21,10 @@
 - [ ] Aurélie : ecrire netcdf au fur et a mesure
 - [ ] Aurélie : contacter cines pour mise en place notebook et dask-jobqueue
 - [ ] Aurélie : tester optimisation avec numba pour une boucle sur les niveaux verticaux et/ou les 24h
+- [ ] Anna : installation sur occigen
+	- [ ] bashrc
+	- [ ] conda
+	- [ ] git clone formation_ANNA
 
 et enfin :
 - [ ] Anna : boucle sur les fichiers et les boîtes, 1 fichier par boîte ? 365x24x300 par profils = ~3Go
