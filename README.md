@@ -23,7 +23,7 @@
 - [ ] Aurélie : tester optimisation avec numba pour une boucle sur les niveaux verticaux et/ou les 24h
 
 et enfin :
-- [ ] Anna : boucle sur les fichiers et les boîtes, 1 fichier par boîte ? 365*24*300 par profils = ~3Go
+- [ ] Anna : boucle sur les fichiers et les boîtes, 1 fichier par boîte ? 365x24x300 par profils = ~3Go
 - [ ] Anna : idem pour les autres profils T, S, U, V dxT etc ...
 
 ## Steps
