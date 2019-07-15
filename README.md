@@ -17,7 +17,7 @@
 ### La suite 
 
 - [ ] Anna : work on the boxes
-- [ ] Aurélie : check filtrage boxcar from xscale
+- [ ] Aurélie/Julien : check filtrage boxcar from xscale/choose window type in https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.windows.get_window.html#scipy.signal.windows.get_window
 - [ ] Aurélie : ecrire netcdf au fur et a mesure
 - [ ] Aurélie : contacter cines pour mise en place notebook et dask-jobqueue
 - [ ] Aurélie : tester optimisation avec numba pour une boucle sur les niveaux verticaux et/ou les 24h
