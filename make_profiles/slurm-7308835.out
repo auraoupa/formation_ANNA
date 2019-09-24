@@ -1,0 +1,1182 @@
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:42315'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:46824'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:44029'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:45911'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:44182'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:37625'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:33594'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:41491'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:45712'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:44774'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:35262'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:41460'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:43366'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:35528'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:43675'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:39199'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:33809'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:41988'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:44589'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:45823'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:39705'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:35842'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:46561'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:44807'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:35004'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:44369'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:46091'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.97:42580'
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:39112
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:37524
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:42859
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:46645
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:39112
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:37524
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:42859
+distributed.worker - INFO -          dashboard at:          172.30.5.97:42092
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:46645
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:38347
+distributed.worker - INFO -          dashboard at:          172.30.5.97:41752
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:38804
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:34112
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:38347
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:42744
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:35161
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:42860
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:40127
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:36574
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:39875
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:34112
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:42347
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:46820
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:46518
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:38804
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:41776
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:42744
+distributed.worker - INFO -          dashboard at:          172.30.5.97:46088
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:45935
+distributed.worker - INFO -          dashboard at:          172.30.5.97:46116
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:35161
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:41923
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:42860
+distributed.worker - INFO -               Threads:                          1
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:44735
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:41663
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:40127
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:43696
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:40608
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:36574
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:39875
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:38759
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:42347
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:46820
+distributed.worker - INFO -          dashboard at:          172.30.5.97:32884
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:46518
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:38608
+distributed.worker - INFO -          dashboard at:          172.30.5.97:36332
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:42140
+distributed.worker - INFO -          dashboard at:          172.30.5.97:43535
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:41923
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:42234
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:44735
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:41663
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -          dashboard at:          172.30.5.97:43888
+distributed.worker - INFO -          dashboard at:          172.30.5.97:42263
+distributed.worker - INFO -          dashboard at:          172.30.5.97:40017
+distributed.worker - INFO -          dashboard at:          172.30.5.97:36904
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:43696
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:38759
+distributed.worker - INFO -          dashboard at:          172.30.5.97:41741
+distributed.worker - INFO -          dashboard at:          172.30.5.97:43112
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:40608
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:45935
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:41776
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:38608
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:42234
+distributed.worker - INFO -          dashboard at:          172.30.5.97:40295
+distributed.worker - INFO -          dashboard at:          172.30.5.97:39585
+distributed.worker - INFO -          dashboard at:          172.30.5.97:45933
+distributed.worker - INFO -          dashboard at:          172.30.5.97:39838
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.97:34099
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-1asqfwg9
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -          dashboard at:          172.30.5.97:41393
+distributed.worker - INFO -          dashboard at:          172.30.5.97:43853
+distributed.worker - INFO -          dashboard at:          172.30.5.97:41017
+distributed.worker - INFO -          dashboard at:          172.30.5.97:32846
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          172.30.5.97:38800
+distributed.worker - INFO -          dashboard at:          172.30.5.97:43494
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          172.30.5.97:39113
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:          172.30.5.97:36474
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:42140
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.97:34099
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -          dashboard at:          172.30.5.97:40793
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-smcx0g2j
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -          dashboard at:          172.30.5.97:43831
+distributed.worker - INFO -          dashboard at:          172.30.5.97:40703
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-itq9gbwt
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-lqmd8j5t
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-7t0guupm
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-gha434yo
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-eotee9lo
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-eu40bhw8
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-z15_2f6s
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-f987cudj
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-eqtrfbl_
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-vdr8f5cs
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-28u7s39e
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-_9ssufyf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-wtwzngfn
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3jy1w6nw
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-uylisbxd
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-48q_gnm9
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-ylj7znuz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-z1pjgvy9
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-rykr6q3j
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-xt2viu9s
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-2f6590hp
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-th_3jzu8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-qy30wfa2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-h4v7cqok
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-hgdf8v_9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-jy95fe_q
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.2:42247
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:42315'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:46518
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:46824'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:45935
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:44029'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:35161
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:45911'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:38347
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:44182'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:46645
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:37625'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:42744
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:33594'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:42140
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:41491'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:38759
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:45712'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:36574
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:44774'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:35262'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:40608
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:41460'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:42859
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:43366'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:40127
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:35528'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:44735
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:43675'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:43696
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:39199'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:41663
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:33809'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:38608
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:41988'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:34112
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:44589'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:45823'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:37524
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:39705'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:42234
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:35842'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:46561'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:39112
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:42860
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:44807'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:39875
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:35004'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:41776
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:44369'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:46091'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:46820
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.97:42580'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:41923
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:42347
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:34099
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.97:38804
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.nanny - ERROR - Timed out connecting Nanny '<Nanny: None, threads: 1>' to scheduler 'tcp://172.30.100.2:42247'
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+tornado.application - ERROR - Multiple exceptions in yield list
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 501, in callback
+    result_list.append(f.result())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/asyncio/tasks.py", line 603, in _wrap_awaitable
+    return (yield from awaitable.__await__())
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 224, in _start
+    response = yield self.instantiate()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 742, in run
+    yielded = self.gen.send(value)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/nanny.py", line 303, in instantiate
+    timedelta(seconds=self.death_timeout), self.process.start()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+distributed.dask_worker - INFO - End worker
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/cli/dask_worker.py", line 405, in <module>
+    go()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/cli/dask_worker.py", line 401, in go
+    main()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/cli/dask_worker.py", line 392, in main
+    raise TimeoutError("Timed out starting worker.") from None
+tornado.util.TimeoutError: Timed out starting worker.
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
