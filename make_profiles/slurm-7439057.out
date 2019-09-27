@@ -1,0 +1,1504 @@
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:36131'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:36643'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:46810'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:35831'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:33389'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:38079'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:44169'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:41185'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:40569'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:38548'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:36182'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:40821'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:33375'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:34329'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:40795'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:41781'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:36127'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:42408'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:36393'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:38832'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:44717'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:45948'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:44696'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:40047'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:37182'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:41592'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:38269'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.85:39767'
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:38184
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:38184
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:41107
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:42455
+distributed.worker - INFO -          dashboard at:          172.30.5.85:33303
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:36819
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:35383
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:42058
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:40223
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:46672
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:44409
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:41107
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:43051
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:42455
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:36861
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:41690
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:36819
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:35383
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:43051
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:42058
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:40223
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:46672
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:44409
+distributed.worker - INFO -          dashboard at:          172.30.5.85:40201
+distributed.worker - INFO -          dashboard at:          172.30.5.85:44668
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:36861
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:41690
+distributed.worker - INFO -          dashboard at:          172.30.5.85:36137
+distributed.worker - INFO -          dashboard at:          172.30.5.85:33420
+distributed.worker - INFO -          dashboard at:          172.30.5.85:37705
+distributed.worker - INFO -          dashboard at:          172.30.5.85:46842
+distributed.worker - INFO -          dashboard at:          172.30.5.85:33066
+distributed.worker - INFO -          dashboard at:          172.30.5.85:37817
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -          dashboard at:          172.30.5.85:44881
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -          dashboard at:          172.30.5.85:35916
+distributed.worker - INFO -          dashboard at:          172.30.5.85:45704
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:33590
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:35639
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:41590
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:38137
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:33590
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:35639
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:41590
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-9n7heltc
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:38137
+distributed.worker - INFO -          dashboard at:          172.30.5.85:33047
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -          dashboard at:          172.30.5.85:45829
+distributed.worker - INFO -          dashboard at:          172.30.5.85:42938
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-h3bfu7ue
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-x6i2v8ak
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -          dashboard at:          172.30.5.85:44487
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-b4xlv864
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-c5f0oxyg
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-ngnjebpq
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-_7t5sou2
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-nk1z8515
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-t5v6o6hf
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-qmwsbmuz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-fbuh_nw8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:33892
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-0yo7rn5a
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-nmv73mra
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-pd80dz00
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:33892
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-v21uty2m
+distributed.worker - INFO -          dashboard at:          172.30.5.85:34127
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:37779
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:45247
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:37779
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:45247
+distributed.worker - INFO -          dashboard at:          172.30.5.85:44365
+distributed.worker - INFO -          dashboard at:          172.30.5.85:33483
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-b9fqu14v
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:37284
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:45057
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:37284
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:45057
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:34934
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -          dashboard at:          172.30.5.85:36085
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:37475
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:33046
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:43554
+distributed.worker - INFO -          dashboard at:          172.30.5.85:41190
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:34934
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-5ykcrrqj
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-pnoy_ffm
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:38572
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:33046
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:37475
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:42077
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:43554
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -          dashboard at:          172.30.5.85:36138
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:38572
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          172.30.5.85:37269
+distributed.worker - INFO -          dashboard at:          172.30.5.85:41969
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:42077
+distributed.worker - INFO -          dashboard at:          172.30.5.85:45932
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -          dashboard at:          172.30.5.85:34699
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          172.30.5.85:43603
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-dpmnh1v5
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-i29iink3
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-0bdm598k
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-qn7icwer
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-ab5q4ads
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-8wm0u773
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-4e83j8od
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-g8r99wdq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:39330
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:39330
+distributed.worker - INFO -          dashboard at:          172.30.5.85:45708
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-nvq43mx7
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 15.86 MB from 1185 reference cycles (threshold: 10.00 MB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.26s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.78 GB -- Worker memory limit: 4.29 GB
+distributed.utils_perf - INFO - full garbage collection released 19.64 MB from 1825 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 271.72 MB from 1618 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 39.58 MB from 1641 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.81 MB from 1653 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 15.62 MB from 1644 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 15.78 MB from 1430 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 15.74 MB from 1716 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 19.89 MB from 1718 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 32.85 MB from 1739 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 666.01 MB from 1961 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 17.24 MB from 1656 reference cycles (threshold: 10.00 MB)
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:43051 -> tcp://172.30.5.85:42077
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:38184 -> tcp://172.30.5.85:42077
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - Worker stream died during communication: tcp://172.30.5.85:42077
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1841, in gather_dep
+    self.rpc, deps, worker, who=self.address
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 3039, in get_data_from_worker
+    max_connections=max_connections,
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/core.py", line 535, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:49370': in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:51822': in <closed TCP>: Stream is closed
+distributed.nanny - WARNING - Worker process 1799 was killed by signal 15
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Restarting worker
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:34934 -> tcp://172.30.5.85:33892
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:34882': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:38137 -> tcp://172.30.5.85:33892
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 139, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:46330': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:43554 -> tcp://172.30.5.85:33892
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:45484': in <closed TCP>: Stream is closed
+distributed.nanny - WARNING - Worker process 1814 was killed by signal 15
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:44409 -> tcp://172.30.5.85:33892
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 139, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:43600': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:35639 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:41107 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:47689': in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:51710': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:46672 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:45516': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:41590 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 139, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:50602': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:42058 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:46856': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:38184 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:52742': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:33046 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:53292': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:43554 -> tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:45902': in <closed TCP>: Stream is closed
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.diskutils - INFO - Found stale lock file and directory '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3', purging
+distributed.nanny - WARNING - Worker process 1797 was killed by signal 15
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2015%2C%20231%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2015%2C%20231%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%2014%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%2014%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%2083%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%2083%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20222179%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20222179%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%207%2C%20172%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%207%2C%20172%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2015%2C%20130%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2015%2C%20130%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2014%2C%20245%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2014%2C%20245%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%201%2C%20202%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%201%2C%20202%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20340801%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20340801%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20177%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20177%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%201%2C%20149%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%201%2C%20149%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%2018%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%2018%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2016%2C%2045%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2016%2C%2045%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20136%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20136%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20208%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20208%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20284281%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20284281%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20124%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20124%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2017%2C%20112%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2017%2C%20112%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20437371%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20437371%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20229%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20229%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20424138%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20424138%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%2030%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%2030%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20280%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20280%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2017%2C%20102%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2017%2C%20102%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20101%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20101%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20142%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20142%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20109%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20109%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2014%2C%20156%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2014%2C%20156%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20542579%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20542579%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%2073%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%2073%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%20258%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%20258%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20173%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20173%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20138%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20138%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20211%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20211%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20180%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20180%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20109%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20109%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20112381%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20112381%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2056%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2056%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20189%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20189%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20204538%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20204538%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20241%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20241%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%2016%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%2016%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20440609%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20440609%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%20104%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%205%2C%20104%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%20208%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%20208%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%2072%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%2072%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20150361%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20150361%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%200%2C%20110%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%200%2C%20110%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2011%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2011%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%2079%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%2079%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%204%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%204%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2015%2C%20212%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2015%2C%20212%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%20201%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%20201%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%208%2C%20178%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%208%2C%20178%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20558238%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20558238%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%2096%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%2096%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%2085%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%2085%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%2051%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%2051%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%2010%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%2010%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20234%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20234%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2019%2C%20112%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2019%2C%20112%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20642301%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20642301%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20177%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20177%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20453031%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20453031%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2012%2C%20236%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2012%2C%20236%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%2099%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%2099%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2016%2C%20239%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2016%2C%20239%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%204%2C%20120%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%204%2C%20120%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20331619%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20331619%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%2019%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%2019%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20111%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20111%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20142438%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20142438%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%208%2C%20200%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%208%2C%20200%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20148%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20148%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20288%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20288%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20523138%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20523138%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2014%2C%20129%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2014%2C%20129%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20224%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20224%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%2066%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%2066%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20204%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20204%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%2038%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%2038%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20153%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20153%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20243%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%20243%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20563908%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20563908%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2016%2C%20176%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2016%2C%20176%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20252%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20252%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20211%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20211%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%2025%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%2025%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%2095%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%2095%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20241259%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20241259%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20595231%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20595231%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2015%2C%20210%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2015%2C%20210%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20147661%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20147661%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20345298%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20345298%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20262%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20262%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%2096%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%2096%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2019%2C%2034%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2019%2C%2034%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20477691%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20477691%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20616828%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20616828%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%2072871%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%2072871%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2020%2C%20202%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2020%2C%20202%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%2084%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%2084%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20181%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20181%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20212%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20212%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20158%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20158%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20113%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20113%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20137%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2011%2C%20137%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20326491%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20326491%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20261961%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20261961%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2017%2C%2095%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2017%2C%2095%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20182761%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20182761%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2010%2C%20251%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2010%2C%20251%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20132811%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20132811%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%20191%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%20191%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%20282%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%20282%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%2065%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%207%2C%2065%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20268%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2012%2C%20268%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%201%2C%20149%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%201%2C%20149%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%2061%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2018%2C%2061%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20639601%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20639601%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20252%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2019%2C%20252%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20212%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20212%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%2080%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%2080%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20516118%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20516118%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20102%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2020%2C%20102%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20510538%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20510538%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20369151%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20369151%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%20205%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%200%2C%20205%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%20238%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%202%2C%20238%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20255%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20255%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%2037%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%2037%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20363029%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20363029%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2010%2C%20104%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2010%2C%20104%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%209%2C%2053%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%209%2C%2053%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%2059911%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%2059911%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2018%2C%20272%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2018%2C%20272%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%208%2C%20185%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%208%2C%20185%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20288%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20288%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2049%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2049%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20486779%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20486779%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20294%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20294%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20288%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20288%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%207%2C%20211%2C%203%2C%202%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%207%2C%20211%2C%203%2C%202%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20378241%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20378241%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20257%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%206%2C%20257%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2015%2C%2086%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2015%2C%2086%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20177%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2022%2C%20177%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20259%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%203%2C%20259%2C%200%2C%200%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%209%2C%20225%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%209%2C%20225%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20330721%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%20330721%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%209958%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27rechunk-split-61330885d4658055f3edbcdad5fd319f%27%2C%209958%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2056%2C%200%2C%201%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2021%2C%2056%2C%200%2C%201%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2013%2C%20231%2C%203%2C%203%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27open_dataset-2e46f711ca0ccd101cb468d13f4a4769votemper-eeadd455153c5378d5a0a9c5f5c55925%27%2C%2013%2C%20231%2C%203%2C%203%29'
+distributed.diskutils - ERROR - Failed to remove '/scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3bz2a_z3/storage/%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20212%2C%200%2C%200%29' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-2d786ebcacddc57335d6f3666aa6a83f%27%2C%2023%2C%20212%2C%200%2C%200%29'
+distributed.nanny - WARNING - Restarting worker
+distributed.nanny - WARNING - Restarting worker
+distributed.utils_perf - INFO - full garbage collection released 15.44 MB from 1671 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.58 GB -- Worker memory limit: 4.29 GB
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.68 GB -- Worker memory limit: 4.29 GB
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:35639 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:47676': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:42058 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:46388': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:35383 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:48548': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:42455 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 139, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:47818': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:34934 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:35202': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:45247 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:37475 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:33590 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 260, in write
+    yield future
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1127, in get_data
+    compressed = yield comm.write(msg, serializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 264, in write
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 139, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - failed during get data with tcp://172.30.5.85:39330 -> tcp://172.30.5.85:36819
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 194, in read
+    n_frames = yield stream.read_bytes(8)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1128, in get_data
+    response = yield comm.read(deserializers=serializers)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 214, in read
+    convert_stream_closed_error(self, e)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/tcp.py", line 141, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.nanny - WARNING - Worker process 1795 was killed by signal 15
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:45478': in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:58348': in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:42594': in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://172.30.5.85:40716': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - Worker stream died during communication: tcp://172.30.5.85:36861
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/core.py", line 218, in connect
+    quiet_exceptions=EnvironmentError,
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 1841, in gather_dep
+    self.rpc, deps, worker, who=self.address
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/worker.py", line 3029, in get_data_from_worker
+    comm = yield rpc.connect(worker)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/core.py", line 866, in connect
+    connection_args=self.connection_args,
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 736, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/core.py", line 230, in connect
+    _raise(error)
+  File "/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/comm/core.py", line 207, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://172.30.5.85:36861' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2ae48a18d710>: ConnectionRefusedError: [Errno 111] Connection refused
+distributed.nanny - WARNING - Restarting worker
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:43485
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:43485
+distributed.worker - INFO -          dashboard at:          172.30.5.85:40526
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-jg0hvwbj
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:37605
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:37605
+distributed.worker - INFO -          dashboard at:          172.30.5.85:33470
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-nkalqam3
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:34243
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:34243
+distributed.worker - INFO -          dashboard at:          172.30.5.85:38552
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-eu9zykem
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 19.40 MB from 1733 reference cycles (threshold: 10.00 MB)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:    tcp://172.30.5.85:35186
+distributed.worker - INFO -          Listening to:    tcp://172.30.5.85:35186
+distributed.worker - INFO -          dashboard at:          172.30.5.85:35900
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-hflbe0n0
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 579.73 MB from 776 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.99 GB -- Worker memory limit: 4.29 GB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.87 GB -- Worker memory limit: 4.29 GB
+distributed.utils_perf - INFO - full garbage collection released 19.51 MB from 1157 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 22.92 MB from 1739 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 159.64 MB from 2174 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.82 GB -- Worker memory limit: 4.29 GB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.63 GB -- Worker memory limit: 4.29 GB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.58 GB -- Worker memory limit: 4.29 GB
+distributed.utils_perf - INFO - full garbage collection released 18.21 MB from 1650 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 94.25 MB from 1207 reference cycles (threshold: 10.00 MB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.82s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.43s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.63s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 11.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 13.33s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 13.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 14.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 15.67s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 15.83s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 16.53s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 2.85 GB -- Worker memory limit: 4.29 GB
+distributed.core - INFO - Event loop was unresponsive in Worker for 17.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 19.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 1.24 GB from 2732 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 49.12 MB from 2611 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 69.02 MB from 2752 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 587.71 MB from 2360 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 182.27 MB from 2389 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 130.54 MB from 1567 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 258.80 MB from 2794 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 84.35 MB from 6293 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 48.50 MB from 2331 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 180.15 MB from 3426 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.utils_perf - INFO - full garbage collection released 65.03 MB from 2811 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 232.94 MB from 2996 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 213.78 MB from 3207 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:38193
+slurmstepd: error: *** JOB 7439057 ON n2060 CANCELLED AT 2019-09-26T11:40:54 DUE TO TIME LIMIT ***
