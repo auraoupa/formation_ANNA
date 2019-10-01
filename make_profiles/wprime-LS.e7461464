@@ -1,0 +1,11 @@
++ ulimit -s
++ ulimit -s unlimited
++ python extractions-gradients-all-variables-boxes.py LS 1 20090701
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+Traceback (most recent call last):
+  File "extractions-gradients-all-variables-boxes.py", line 191, in <module>
+    sys.exit(main() or 0)
+  File "extractions-gradients-all-variables-boxes.py", line 170, in main
+    box = int(args[0])
+ValueError: invalid literal for int() with base 10: 'LS'

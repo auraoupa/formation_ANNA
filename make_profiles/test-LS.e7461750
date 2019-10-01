@@ -1,0 +1,15 @@
++ ulimit -s
++ ulimit -s unlimited
++ python calcul-wprimebprime-boxes.py LS 1 20090701
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/core.py:3684: PerformanceWarning: Increasing number of chunks by factor of 300
+  **blockwise_kwargs
+Traceback (most recent call last):
+  File "calcul-wprimebprime-boxes.py", line 142, in <module>
+    sys.exit(main() or 0)
+  File "calcul-wprimebprime-boxes.py", line 132, in main
+    compute_mean_wprime_bprime(date,k,profile_name,imin,imax,jmin,jmax,box_name)
+  File "calcul-wprimebprime-boxes.py", line 91, in compute_mean_wprime_bprime
+    profile=wprimebprime[:,:,jmin_LS[ibox]:jmax_LS[ibox],imin_LS[ibox]:imax_LS[ibox]].mean(dim={'x','y','time_counter'})
+NameError: name 'jmin_LS' is not defined

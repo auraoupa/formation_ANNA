@@ -1,0 +1,26 @@
++ ulimit -s
++ ulimit -s unlimited
++ python extractions-gradients-all-variables-boxes.py LS 1 20090701
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+Traceback (most recent call last):
+  File "extractions-gradients-all-variables-boxes.py", line 191, in <module>
+    sys.exit(main() or 0)
+  File "extractions-gradients-all-variables-boxes.py", line 181, in main
+    compute_all_profiles_all_var(date,k,profile_name)
+  File "extractions-gradients-all-variables-boxes.py", line 121, in compute_all_profiles_all_var
+    profile_data,profile_data_dx,profile_data_dy,profile_data_dz,attrs=compute_all_profiles(var,'20090701',0)
+  File "extractions-gradients-all-variables-boxes.py", line 102, in compute_all_profiles
+    data_box=ds[str(var)][:,:,jmin[ibox]-10:jmax[ibox]+10,imin[ibox]-10:imax[ibox]+10]
+NameError: name 'jmin' is not defined
++ python calcul-wprimebprime-boxes.py LS 1 20090701
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+Traceback (most recent call last):
+  File "calcul-wprimebprime-boxes.py", line 130, in <module>
+    sys.exit(main() or 0)
+  File "calcul-wprimebprime-boxes.py", line 120, in main
+    compute_mean_wprime_bprime(date,k,profile_name)
+  File "calcul-wprimebprime-boxes.py", line 75, in compute_mean_wprime_bprime
+    wprime=filt(wdata)
+NameError: name 'filt' is not defined

@@ -1,0 +1,18 @@
++ ulimit -s
++ ulimit -s unlimited
++ python extractions-gradients-all-variables-boxes.py LS 1 20090701
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:37: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
++ python calcul-wprimebprime-boxes.py LS 1 20090701
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+Traceback (most recent call last):
+  File "calcul-wprimebprime-boxes.py", line 130, in <module>
+    sys.exit(main() or 0)
+  File "calcul-wprimebprime-boxes.py", line 120, in main
+    compute_mean_wprime_bprime(date,k,profile_name,imin,imax,jmin,jmax,box_name)
+  File "calcul-wprimebprime-boxes.py", line 75, in compute_mean_wprime_bprime
+    wprime=filt(wdata)
+NameError: name 'filt' is not defined

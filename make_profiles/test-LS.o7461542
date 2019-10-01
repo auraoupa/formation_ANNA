@@ -1,0 +1,17 @@
+8192
+Start at  2019-10-01 09:53:30
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-01 10:48:26
+Start at  2019-10-01 10:48:28
+Computing wprimebprime profile
+read the data
+compute buoyancy
+filter w

@@ -1,0 +1,5 @@
++ ulimit -s
++ ulimit -s unlimited
++ python calcul-wprimebprime-boxes.py LS 1 20090701
+/var/spool/slurmd/job7461990/slurm_script : ligne 18 : 54570 Processus arrêté      python calcul-wprimebprime-boxes.py 'LS' 1 '20090701'
+slurmstepd: error: Exceeded step memory limit at some point.
