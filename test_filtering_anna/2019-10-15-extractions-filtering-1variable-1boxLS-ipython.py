@@ -1,6 +1,6 @@
 #!/usr/bin/env python
+# coding: utf-8
 
-## ressources
 import dask
 import dask.threaded
 import dask.multiprocessing
@@ -8,6 +8,7 @@ from dask.distributed import Client
 
 c = Client()
 c
+
 
 
 ##imports
@@ -28,11 +29,14 @@ import sys
 sys.path.insert(0,'/home/albert7a/git/xscale')
 import xscale
 
+
 ## data location and gridfile
 
 data_dir = '/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-BLBT02-S/'
 gridfile='/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-I/mesh_mask_eNATL60_3.6_lev1.nc4'
 dsgrid=xr.open_dataset(gridfile,chunks={'x':1000,'y':1000})
+
+
 
 ## box indices 
 def read_csv(box):
@@ -43,6 +47,7 @@ def read_csv(box):
     jmax=boxes['jmax']
     box_name=boxes.index
     return imin,imax,jmin,jmax,box_name
+
 
 ## functions useful for computations
 
@@ -82,6 +87,7 @@ def sigma0(t,s):
     sigma0=( zr4*zs + zr3*zsr + zr2 ) *zs + zr1 - zrau0
     return sigma0
 
+
 def filt(w):
     win_box2D = w.window
     win_box2D.set(window='hanning', cutoff=20, dim=['x', 'y'], n=[30, 30])
@@ -89,6 +95,8 @@ def filt(w):
     w_LS = win_box2D.convolve(weights=bw)
     w_SS=w-w_LS
     return w_SS
+
+
 
 ## correspondance of dimensions and grids for each variable
 filetyps = {'buoyancy' : 'gridT','votemper' : 'gridT', 'vosaline' : 'gridS','vozocrtx' : 'gridU', 'vomecrty' : 'gridV','vovecrtz' : 'gridW'}
@@ -98,16 +106,17 @@ filee2 = {'buoyancy' : 'e2t','votemper' : 'e2t','vosaline' : 'e2t','vozocrtx' : 
 filee3 = {'buoyancy' : 'e3t_0','votemper' : 'e3t_0','vosaline' : 'e3t_0','vozocrtx' : 'e3u_0', 'vomecrty' : 'e3v_0','vovecrtz':'e3w_0'}
 
 
+
 ## main computation function
-def compute_all_profiles(var,date,ibox,imin,imax,jmin,jmax,box_name):
+def compute_profile(var,date,ibox,imin,imax,jmin,jmax,box_name):
     if var == 'buoyancy':
         filenameT = sorted(glob.glob(data_dir+'*/eNATL60-BLBT02_1h_*_gridT_'+date+'-'+date+'.nc'))
         fileT=filenameT[0]
-        dsT=xr.open_dataset(fileT)
+        dsT=xr.open_dataset(fileT,chunks={'x':1000,'y':1000,'time_counter':1,'deptht':1})
         dataT=dsT['votemper']
         filenameS = sorted(glob.glob(data_dir+'*/eNATL60-BLBT02_1h_*_gridS_'+date+'-'+date+'.nc'))
         fileS=filenameS[0]
-        dsS=xr.open_dataset(fileS)
+        dsS=xr.open_dataset(fileS,chunks={'x':1000,'y':1000,'time_counter':1,'deptht':1})
         dataS=dsS['vosaline']
         data=compute_buoy(dataT,dataS)
         attrs=dataT.attrs
@@ -117,54 +126,25 @@ def compute_all_profiles(var,date,ibox,imin,imax,jmin,jmax,box_name):
     else:
         filename = sorted(glob.glob(data_dir+'*/eNATL60-BLBT02_1h_*_'+filetyps[var]+'_'+date+'-'+date+'.nc'))
         file=filename[0]
-        ds=xr.open_dataset(file)
+        ds=xr.open_dataset(file,chunks={'x':1000,'y':1000,'time_counter':1,filedeps[var]:1})
         data=ds[str(var)]
         attrs=data.attrs
         
-    e1=dsgrid[str(filee1[var])]
-    e2=dsgrid[str(filee2[var])]
-    e3=dsgrid[str(filee3[var])]
-    data_dx=dx_var(data,e1)
-    data_dy=dy_var(data,e2)
-    data_dz=dz_var(data,e3,filedeps[var])
     filt_data=filt(data)
-    filt_data_dx=filt(data_dx)
-    filt_data_dy=filt(data_dy)
-    filt_data_dz=filt(data_dz)
     profile_data=filt_data[:,:,jmin[ibox]:jmax[ibox],imin[ibox]:imax[ibox]].mean(dim={'x','y','time_counter'})
-    profile_data_dx=filt_data_dx[:,:,jmin[ibox]:jmax[ibox],imin[ibox]:imax[ibox]].mean(dim={'x','y','time_counter'})
-    profile_data_dy=filt_data_dy[:,:,jmin[ibox]:jmax[ibox],imin[ibox]:imax[ibox]].mean(dim={'x','y','time_counter'})
-    profile_data_dz=filt_data_dz[:,:,jmin[ibox]:jmax[ibox],imin[ibox]:imax[ibox]].mean(dim={'x','y','time_counter'})
-    return profile_data,profile_data_dx,profile_data_dy,profile_data_dz,attrs
+    return profile_data,attrs
 
-def compute_all_profiles_all_var(date,ibox,profile_name,imin,imax,jmin,jmax,box_name):
+
+def compute_profile_all_var(date,ibox,profile_name,imin,imax,jmin,jmax,box_name):
     list_dataset=[]
-    for var in ['votemper','vosaline','vozocrtx','vomecrty','vovecrtz','buoyancy']:
-        print('compute profile and dx,dy,dz of '+var)
-        profile_data,profile_data_dx,profile_data_dy,profile_data_dz,attrs=compute_all_profiles(var,'20090701',0,imin,imax,jmin,jmax,box_name)
+    for var in ['votemper']:
+        print('compute mean profile of '+var)
+        profile_data,attrs=compute_profile(var,'20090701',0,imin,imax,jmin,jmax,box_name)
         dataset=profile_data.to_dataset(name=var)
         dataset[var].attrs=attrs
         dataset[var].attrs['standard_name']=attrs['standard_name']
         dataset[var].attrs['long_name']=attrs['long_name']
         dataset[var].attrs['units']=attrs['units']
-        list_dataset.append(dataset)
-        dataset=profile_data_dx.to_dataset(name='dx'+var)
-        dataset['dx'+var].attrs=attrs
-        dataset['dx'+var].attrs['standard_name']='dx gradient of '+attrs['standard_name']
-        dataset['dx'+var].attrs['long_name']='dx_'+attrs['long_name']
-        dataset['dx'+var].attrs['units']=attrs['units']
-        list_dataset.append(dataset)
-        dataset=profile_data_dy.to_dataset(name='dy'+var)
-        dataset['dy'+var].attrs=attrs
-        dataset['dy'+var].attrs['standard_name']='dy gradient of '+attrs['standard_name']
-        dataset['dy'+var].attrs['long_name']='dy_'+attrs['long_name']
-        dataset['dy'+var].attrs['units']=attrs['units']
-        list_dataset.append(dataset)
-        dataset=profile_data_dz.to_dataset(name='dz'+var)
-        dataset['dz'+var].attrs=attrs
-        dataset['dz'+var].attrs['standard_name']='dz gradient of '+attrs['standard_name']
-        dataset['dz'+var].attrs['long_name']='dz_'+attrs['long_name']
-        dataset['dz'+var].attrs['units']=attrs['units']
         list_dataset.append(dataset)
     print('merging all datasets')
     big_dataset=xr.merge(list_dataset)
@@ -173,17 +153,18 @@ def compute_all_profiles_all_var(date,ibox,profile_name,imin,imax,jmin,jmax,box_
     big_dataset.to_netcdf(path=profile_name,mode='w')
 
 
+
 box = 'LS'
 k = 0
 date = '20090714'
 
 imin,imax,jmin,jmax,box_name=read_csv(box)
-profile_name='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/'+str(box)+'/eNATL60'+str(box)+box_name[k]+'-BLBT02_y'+date[0:4]+'m'+date[4:6]+'d'+date[6:9]+'_predictors-profiles.nc'
+profile_name='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/'+str(box)+'/eNATL60'+str(box)+box_name[k]+'-BLBT02_y'+date[0:4]+'m'+date[4:6]+'d'+date[6:9]+'_profiles.nc'
 
 
-if not os.path.exists(profile_name):
-    print("Computing wprimebprime profile")
-    compute_all_profiles_all_var(date,k,profile_name,imin,imax,jmin,jmax,box_name)
+compute_profile_all_var(date,k,profile_name,imin,imax,jmin,jmax,box_name)
 
-else:
-    print("Not computing, profiles already exist")
+for k in np.arange(0,):
+    compute_profile_all_var(date,k,profile_name,imin,imax,jmin,jmax,box_name)
+
+
