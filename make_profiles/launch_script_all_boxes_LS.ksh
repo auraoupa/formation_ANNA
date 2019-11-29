@@ -14,7 +14,7 @@ NB_NPROC=65 ##
 runcode() { srun --mpi=pmi2 -m cyclic -n $@ ; }
 liste=''
 
-date='20090701'
+date='20090702'
 
 set -x
 ulimit -s

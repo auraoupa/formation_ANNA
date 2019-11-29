@@ -164,7 +164,12 @@ profile_name='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/'+
 
 compute_profile_all_var(date,k,profile_name,imin,imax,jmin,jmax,box_name)
 
-#for k in np.arange(0,):
-#    compute_profile_all_var(date,k,profile_name,imin,imax,jmin,jmax,box_name)
+for k in np.arange(61):
+    profile_name='/scratch/cnt0024/hmg2840/albert7a/eNATL60/eNATL60-BLBT02-S/ANNA/'+str(box)+'/eNATL60'+str(box)+box_name[k]+'-BLBT02_y'+date[0:4]+'m'+date[4:6]+'d'+date[6:9]+'_profiles.nc'
+    if not os.path.exists(profile_name):
+        print("Computing profiles")
+        compute_profile_all_var(date,k,profile_name,imin,imax,jmin,jmax,box_name)
+    else:
+        print("Not computing, profiles already exist")
 
 

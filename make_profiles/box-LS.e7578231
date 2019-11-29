@@ -1,0 +1,822 @@
++ ulimit -s
++ ulimit -s unlimited
+++ seq 1 65
++ for k in '$(seq 1 65)'
+++ echo 0
++ km=0
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 0 20090702'
++ chmod +x extract-boxLS0-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 1
++ km=1
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 1 20090702'
++ chmod +x extract-boxLS1-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 2
++ km=2
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 2 20090702'
++ chmod +x extract-boxLS2-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 3
++ km=3
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 3 20090702'
++ chmod +x extract-boxLS3-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 4
++ km=4
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 4 20090702'
++ chmod +x extract-boxLS4-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 5
++ km=5
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 5 20090702'
++ chmod +x extract-boxLS5-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 6
++ km=6
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 6 20090702'
++ chmod +x extract-boxLS6-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 7
++ km=7
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 7 20090702'
++ chmod +x extract-boxLS7-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 8
++ km=8
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 8 20090702'
++ chmod +x extract-boxLS8-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 9
++ km=9
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 9 20090702'
++ chmod +x extract-boxLS9-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 10
++ km=10
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 10 20090702'
++ chmod +x extract-boxLS10-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 11
++ km=11
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 11 20090702'
++ chmod +x extract-boxLS11-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 12
++ km=12
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 12 20090702'
++ chmod +x extract-boxLS12-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 13
++ km=13
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 13 20090702'
++ chmod +x extract-boxLS13-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 14
++ km=14
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 14 20090702'
++ chmod +x extract-boxLS14-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 15
++ km=15
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 15 20090702'
++ chmod +x extract-boxLS15-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 16
++ km=16
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 16 20090702'
++ chmod +x extract-boxLS16-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 17
++ km=17
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 17 20090702'
++ chmod +x extract-boxLS17-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 18
++ km=18
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 18 20090702'
++ chmod +x extract-boxLS18-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 19
++ km=19
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 19 20090702'
++ chmod +x extract-boxLS19-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 20
++ km=20
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 20 20090702'
++ chmod +x extract-boxLS20-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 21
++ km=21
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 21 20090702'
++ chmod +x extract-boxLS21-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 22
++ km=22
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 22 20090702'
++ chmod +x extract-boxLS22-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 23
++ km=23
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 23 20090702'
++ chmod +x extract-boxLS23-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 24
++ km=24
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 24 20090702'
++ chmod +x extract-boxLS24-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 25
++ km=25
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 25 20090702'
++ chmod +x extract-boxLS25-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 26
++ km=26
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 26 20090702'
++ chmod +x extract-boxLS26-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 27
++ km=27
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 27 20090702'
++ chmod +x extract-boxLS27-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 28
++ km=28
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 28 20090702'
++ chmod +x extract-boxLS28-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 29
++ km=29
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 29 20090702'
++ chmod +x extract-boxLS29-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 30
++ km=30
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 30 20090702'
++ chmod +x extract-boxLS30-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 31
++ km=31
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 31 20090702'
++ chmod +x extract-boxLS31-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 32
++ km=32
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 32 20090702'
++ chmod +x extract-boxLS32-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 33
++ km=33
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 33 20090702'
++ chmod +x extract-boxLS33-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 34
++ km=34
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 34 20090702'
++ chmod +x extract-boxLS34-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 35
++ km=35
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 35 20090702'
++ chmod +x extract-boxLS35-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 36
++ km=36
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 36 20090702'
++ chmod +x extract-boxLS36-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 37
++ km=37
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 37 20090702'
++ chmod +x extract-boxLS37-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 38
++ km=38
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 38 20090702'
++ chmod +x extract-boxLS38-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 39
++ km=39
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 39 20090702'
++ chmod +x extract-boxLS39-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 40
++ km=40
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 40 20090702'
++ chmod +x extract-boxLS40-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 41
++ km=41
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 41 20090702'
++ chmod +x extract-boxLS41-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 42
++ km=42
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 42 20090702'
++ chmod +x extract-boxLS42-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 43
++ km=43
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 43 20090702'
++ chmod +x extract-boxLS43-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 44
++ km=44
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 44 20090702'
++ chmod +x extract-boxLS44-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 45
++ km=45
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 45 20090702'
++ chmod +x extract-boxLS45-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 46
++ km=46
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 46 20090702'
++ chmod +x extract-boxLS46-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 47
++ km=47
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 47 20090702'
++ chmod +x extract-boxLS47-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 48
++ km=48
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 48 20090702'
++ chmod +x extract-boxLS48-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 49
++ km=49
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 49 20090702'
++ chmod +x extract-boxLS49-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 50
++ km=50
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 50 20090702'
++ chmod +x extract-boxLS50-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 51
++ km=51
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 51 20090702'
++ chmod +x extract-boxLS51-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 52
++ km=52
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 52 20090702'
++ chmod +x extract-boxLS52-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 53
++ km=53
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 53 20090702'
++ chmod +x extract-boxLS53-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 54
++ km=54
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 54 20090702'
++ chmod +x extract-boxLS54-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 55
++ km=55
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 55 20090702'
++ chmod +x extract-boxLS55-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 56
++ km=56
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 56 20090702'
++ chmod +x extract-boxLS56-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 57
++ km=57
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 57 20090702'
++ chmod +x extract-boxLS57-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 58
++ km=58
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 58 20090702'
++ chmod +x extract-boxLS58-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 59
++ km=59
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 59 20090702'
++ chmod +x extract-boxLS59-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 60
++ km=60
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 60 20090702'
++ chmod +x extract-boxLS60-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 61
++ km=61
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 61 20090702'
++ chmod +x extract-boxLS61-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh extract-boxLS61-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 62
++ km=62
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 62 20090702'
++ chmod +x extract-boxLS62-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh extract-boxLS61-20090702.ksh extract-boxLS62-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 63
++ km=63
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 63 20090702'
++ chmod +x extract-boxLS63-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh extract-boxLS61-20090702.ksh extract-boxLS62-20090702.ksh extract-boxLS63-20090702.ksh'
++ for k in '$(seq 1 65)'
+++ echo 64
++ km=64
++ echo 'python extractions-gradients-all-variables-boxes.py '\''LS'\'' 64 20090702'
++ chmod +x extract-boxLS64-20090702.ksh
++ liste=' extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh extract-boxLS61-20090702.ksh extract-boxLS62-20090702.ksh extract-boxLS63-20090702.ksh extract-boxLS64-20090702.ksh'
++ runcode 65 /scratch/cnt0024/hmg2840/albert7a/bin/mpi_shell extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh extract-boxLS61-20090702.ksh extract-boxLS62-20090702.ksh extract-boxLS63-20090702.ksh extract-boxLS64-20090702.ksh
++ srun --mpi=pmi2 -m cyclic -n 65 /scratch/cnt0024/hmg2840/albert7a/bin/mpi_shell extract-boxLS0-20090702.ksh extract-boxLS1-20090702.ksh extract-boxLS2-20090702.ksh extract-boxLS3-20090702.ksh extract-boxLS4-20090702.ksh extract-boxLS5-20090702.ksh extract-boxLS6-20090702.ksh extract-boxLS7-20090702.ksh extract-boxLS8-20090702.ksh extract-boxLS9-20090702.ksh extract-boxLS10-20090702.ksh extract-boxLS11-20090702.ksh extract-boxLS12-20090702.ksh extract-boxLS13-20090702.ksh extract-boxLS14-20090702.ksh extract-boxLS15-20090702.ksh extract-boxLS16-20090702.ksh extract-boxLS17-20090702.ksh extract-boxLS18-20090702.ksh extract-boxLS19-20090702.ksh extract-boxLS20-20090702.ksh extract-boxLS21-20090702.ksh extract-boxLS22-20090702.ksh extract-boxLS23-20090702.ksh extract-boxLS24-20090702.ksh extract-boxLS25-20090702.ksh extract-boxLS26-20090702.ksh extract-boxLS27-20090702.ksh extract-boxLS28-20090702.ksh extract-boxLS29-20090702.ksh extract-boxLS30-20090702.ksh extract-boxLS31-20090702.ksh extract-boxLS32-20090702.ksh extract-boxLS33-20090702.ksh extract-boxLS34-20090702.ksh extract-boxLS35-20090702.ksh extract-boxLS36-20090702.ksh extract-boxLS37-20090702.ksh extract-boxLS38-20090702.ksh extract-boxLS39-20090702.ksh extract-boxLS40-20090702.ksh extract-boxLS41-20090702.ksh extract-boxLS42-20090702.ksh extract-boxLS43-20090702.ksh extract-boxLS44-20090702.ksh extract-boxLS45-20090702.ksh extract-boxLS46-20090702.ksh extract-boxLS47-20090702.ksh extract-boxLS48-20090702.ksh extract-boxLS49-20090702.ksh extract-boxLS50-20090702.ksh extract-boxLS51-20090702.ksh extract-boxLS52-20090702.ksh extract-boxLS53-20090702.ksh extract-boxLS54-20090702.ksh extract-boxLS55-20090702.ksh extract-boxLS56-20090702.ksh extract-boxLS57-20090702.ksh extract-boxLS58-20090702.ksh extract-boxLS59-20090702.ksh extract-boxLS60-20090702.ksh extract-boxLS61-20090702.ksh extract-boxLS62-20090702.ksh extract-boxLS63-20090702.ksh extract-boxLS64-20090702.ksh
+./extract-boxLS47-20090702.ksh : ligne 1 : 31604 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 47 20090702
+./extract-boxLS63-20090702.ksh : ligne 1 : 31606 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 63 20090702
+./extract-boxLS62-20090702.ksh : ligne 1 : 33758 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 62 20090702
+./extract-boxLS27-20090702.ksh : ligne 1 : 20527 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 27 20090702
+./extract-boxLS60-20090702.ksh : ligne 1 : 52007 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 60 20090702
+./extract-boxLS35-20090702.ksh : ligne 1 : 20532 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 35 20090702
+./extract-boxLS18-20090702.ksh : ligne 1 : 57138 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 18 20090702
+./extract-boxLS50-20090702.ksh : ligne 1 : 57142 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 50 20090702
+./extract-boxLS64-20090702.ksh : ligne 1 : 17125 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 64 20090702
+./extract-boxLS5-20090702.ksh : ligne 1 : 22977 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 5 20090702
+./extract-boxLS22-20090702.ksh : ligne 1 : 33751 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 22 20090702
+./extract-boxLS46-20090702.ksh : ligne 1 : 33757 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 46 20090702
+./extract-boxLS17-20090702.ksh : ligne 1 : 23626 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 17 20090702
+./extract-boxLS1-20090702.ksh : ligne 1 : 23625 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 1 20090702
+./extract-boxLS24-20090702.ksh : ligne 1 : 17123 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 24 20090702
+./extract-boxLS8-20090702.ksh : ligne 1 : 17117 Processus arrêté      python extractions-gradients-all-variables-boxes.py 'LS' 8 20090702
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/xarray/core/merge.py:16: FutureWarning: The Panel class is removed from pandas. Accessing it from the top-level namespace will also be removed in the next version
+  PANDAS_TYPES = (pd.Series, pd.DataFrame, pd.Panel)
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/array/numpy_compat.py:28: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+srun: error: n3109: tasks 3,11,19,27,35,43,51,59: Out Of Memory
+srun: Terminating job step 7578231.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Exceeded job memory limit at some point.

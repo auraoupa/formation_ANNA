@@ -1,0 +1,605 @@
+8192
+ RANK =            0 NTASK=           65  cmd : extract-boxLS0-20090702.ksh
+ RANK =            8 NTASK=           65  cmd : extract-boxLS8-20090702.ksh
+ RANK =           16 NTASK=           65  cmd : extract-boxLS16-20090702.ksh
+ RANK =           24 NTASK=           65  cmd : extract-boxLS24-20090702.ksh
+ RANK =           32 NTASK=           65  cmd : extract-boxLS32-20090702.ksh
+ RANK =           40 NTASK=           65  cmd : extract-boxLS40-20090702.ksh
+ RANK =           48 NTASK=           65  cmd : extract-boxLS48-20090702.ksh
+ RANK =           56 NTASK=           65  cmd : extract-boxLS56-20090702.ksh
+ RANK =           64 NTASK=           65  cmd : extract-boxLS64-20090702.ksh
+ RANK =            1 NTASK=           65  cmd : extract-boxLS1-20090702.ksh
+ RANK =            7 NTASK=           65  cmd : extract-boxLS7-20090702.ksh
+ RANK =            3 NTASK=           65  cmd : extract-boxLS3-20090702.ksh
+ RANK =           11 NTASK=           65  cmd : extract-boxLS11-20090702.ksh
+ RANK =           19 NTASK=           65  cmd : extract-boxLS19-20090702.ksh
+ RANK =           35 NTASK=           65  cmd : extract-boxLS35-20090702.ksh
+ RANK =           51 NTASK=           65  cmd : extract-boxLS51-20090702.ksh
+ RANK =           59 NTASK=           65  cmd : extract-boxLS59-20090702.ksh
+ RANK =           27 NTASK=           65  cmd : extract-boxLS27-20090702.ksh
+ RANK =           43 NTASK=           65  cmd : extract-boxLS43-20090702.ksh
+ RANK =            2 NTASK=           65  cmd : extract-boxLS2-20090702.ksh
+ RANK =            4 NTASK=           65  cmd : extract-boxLS4-20090702.ksh
+ RANK =           12 NTASK=           65  cmd : extract-boxLS12-20090702.ksh
+ RANK =           20 NTASK=           65  cmd : extract-boxLS20-20090702.ksh
+ RANK =           28 NTASK=           65  cmd : extract-boxLS28-20090702.ksh
+ RANK =           36 NTASK=           65  cmd : extract-boxLS36-20090702.ksh
+ RANK =           44 NTASK=           65  cmd : extract-boxLS44-20090702.ksh
+ RANK =            6 NTASK=           65  cmd : extract-boxLS6-20090702.ksh
+ RANK =           52 NTASK=           65  cmd : extract-boxLS52-20090702.ksh
+ RANK =           60 NTASK=           65  cmd : extract-boxLS60-20090702.ksh
+ RANK =            5 NTASK=           65  cmd : extract-boxLS5-20090702.ksh
+ RANK =           21 NTASK=           65  cmd : extract-boxLS21-20090702.ksh
+ RANK =           29 NTASK=           65  cmd : extract-boxLS29-20090702.ksh
+ RANK =           37 NTASK=           65  cmd : extract-boxLS37-20090702.ksh
+ RANK =           45 NTASK=           65  cmd : extract-boxLS45-20090702.ksh
+ RANK =           53 NTASK=           65  cmd : extract-boxLS53-20090702.ksh
+ RANK =           61 NTASK=           65  cmd : extract-boxLS61-20090702.ksh
+ RANK =           13 NTASK=           65  cmd : extract-boxLS13-20090702.ksh
+ RANK =           23 NTASK=           65  cmd : extract-boxLS23-20090702.ksh
+ RANK =            9 NTASK=           65  cmd : extract-boxLS9-20090702.ksh
+ RANK =           31 NTASK=           65  cmd : extract-boxLS31-20090702.ksh
+ RANK =           17 NTASK=           65  cmd : extract-boxLS17-20090702.ksh
+ RANK =           39 NTASK=           65  cmd : extract-boxLS39-20090702.ksh
+ RANK =           25 NTASK=           65  cmd : extract-boxLS25-20090702.ksh
+ RANK =           47 NTASK=           65  cmd : extract-boxLS47-20090702.ksh
+ RANK =           33 NTASK=           65  cmd : extract-boxLS33-20090702.ksh
+ RANK =           55 NTASK=           65  cmd : extract-boxLS55-20090702.ksh
+ RANK =           41 NTASK=           65  cmd : extract-boxLS41-20090702.ksh
+ RANK =           63 NTASK=           65  cmd : extract-boxLS63-20090702.ksh
+ RANK =           49 NTASK=           65  cmd : extract-boxLS49-20090702.ksh
+ RANK =           15 NTASK=           65  cmd : extract-boxLS15-20090702.ksh
+ RANK =           57 NTASK=           65  cmd : extract-boxLS57-20090702.ksh
+ RANK =           10 NTASK=           65  cmd : extract-boxLS10-20090702.ksh
+ RANK =           18 NTASK=           65  cmd : extract-boxLS18-20090702.ksh
+ RANK =           26 NTASK=           65  cmd : extract-boxLS26-20090702.ksh
+ RANK =           34 NTASK=           65  cmd : extract-boxLS34-20090702.ksh
+ RANK =           42 NTASK=           65  cmd : extract-boxLS42-20090702.ksh
+ RANK =           50 NTASK=           65  cmd : extract-boxLS50-20090702.ksh
+ RANK =           58 NTASK=           65  cmd : extract-boxLS58-20090702.ksh
+ RANK =           14 NTASK=           65  cmd : extract-boxLS14-20090702.ksh
+ RANK =           22 NTASK=           65  cmd : extract-boxLS22-20090702.ksh
+ RANK =           30 NTASK=           65  cmd : extract-boxLS30-20090702.ksh
+ RANK =           62 NTASK=           65  cmd : extract-boxLS62-20090702.ksh
+ RANK =           38 NTASK=           65  cmd : extract-boxLS38-20090702.ksh
+ RANK =           46 NTASK=           65  cmd : extract-boxLS46-20090702.ksh
+ RANK =           54 NTASK=           65  cmd : extract-boxLS54-20090702.ksh
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:17
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:50
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:18
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:19
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:19
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:19
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:19
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:19
+Start at  2019-10-29 13:59:45
+Computing profiles
+compute profile and dx,dy,dz of votemper
+compute profile and dx,dy,dz of vosaline
+compute profile and dx,dy,dz of vozocrtx
+compute profile and dx,dy,dz of vomecrty
+compute profile and dx,dy,dz of vovecrtz
+compute profile and dx,dy,dz of buoyancy
+merging all datasets
+writing to netcdf
+End at  2019-10-29 15:10:19
